@@ -8,17 +8,19 @@ public class App
 {
     public static void main( String[] args )
     {
-     // ¿Cómo se declara un Array?
-    int[] numeros; 	// Declaramos que numeros es un array de valores enteros.
-    // Los array comienzan en 0.
+    	
+    	// VARIANTE 2
+    //	¿Cómo se declara un array?
+    int[] numeros = {
+    		0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+    };
     
-    //¿Cómo añadir valores al array de números?
-    // Primeramente, hay que reservar memoria para los elementos del array.
-    numeros = new int[10];
-    numeros[0] = 1;
-    numeros[1] = 2;
-    numeros[2] = 3;
-    
-    // Y así hasta el índice 9, porque del 0 al 9 hay 10 elementos.
+    //Un array de nombres sería
+    String[] nombres = {
+    		"Tamara", "Jessica", "Carlos", "Adrian", "Carlos", "Maria Lopez",
+    		"Maria Jose", "Rosa", "Pablo", "Ivan", "Marly"
+    };
     }
-}
+    			
+    }
+
